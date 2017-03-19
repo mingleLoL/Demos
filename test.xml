@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name = "demo suite">
-    <test name = "inherit test">
+<suite name = "demo suite" verbose="2">
+    <test name = "inherit test" verbose="2">
         <classes>
-            <class name="testng.Comments" />
+            <class name="testng.Annotations"/>
         </classes>
     </test>
 </suite>
